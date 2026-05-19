@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-19T11:49:56-07:00",
+    "generatedAt":  "2026-05-19T12:14:00-07:00",
     "sourceFiles":  [
                         {
                             "week":  "WK1, WK10, WK11, WK12, WK13, WK14, WK2, WK3, WK4, WK5, WK6, WK7, WK8, WK9",
@@ -1903,7 +1903,7 @@
                                            "release":  "Regular",
                                            "size":  "MED",
                                            "season":  "P25",
-                                           "inventory":  3
+                                           "inventory":  4
                                        },
                                        {
                                            "name":  "Vans OTW Era 95 Satoshi Nakamoto Gems",
@@ -1983,7 +1983,7 @@
                                            "release":  "Regular",
                                            "size":  "10.5",
                                            "season":  "P26",
-                                           "inventory":  0
+                                           "inventory":  24
                                        },
                                        {
                                            "name":  "adidas x BAPE Samba World Cup Off White / Shadow Green - Gum",
@@ -2047,7 +2047,7 @@
                                            "release":  "Release",
                                            "size":  "10.5",
                                            "season":  "P26",
-                                           "inventory":  3
+                                           "inventory":  44
                                        },
                                        {
                                            "name":  "Nike Kobe IX Elite Low Protro Neo Turquoise / Volt",
@@ -2159,7 +2159,7 @@
                                            "release":  "Regular",
                                            "size":  "9.5",
                                            "season":  "P26",
-                                           "inventory":  2
+                                           "inventory":  4
                                        },
                                        {
                                            "name":  "adidas Originals BW Army Lux Footwear White / Footwear White - Gum",
@@ -2175,7 +2175,7 @@
                                            "release":  "Regular",
                                            "size":  "10.5",
                                            "season":  "P26",
-                                           "inventory":  21
+                                           "inventory":  181
                                        },
                                        {
                                            "name":  "Nike Air Max 95 White / Comet Red - Neutral Grey",
@@ -2207,7 +2207,7 @@
                                            "release":  "Regular",
                                            "size":  "10.5",
                                            "season":  "P26",
-                                           "inventory":  0
+                                           "inventory":  5
                                        },
                                        {
                                            "name":  "Salomon XT-6 GTX White / White - Ftw Silver",
@@ -2223,7 +2223,7 @@
                                            "release":  "Regular",
                                            "size":  "7",
                                            "season":  "P26",
-                                           "inventory":  27
+                                           "inventory":  33
                                        },
                                        {
                                            "name":  "adidas Originals x Pharrell VIRGINIA Adistar Jellyfish Carbon / Core Black - Carb",
@@ -2431,7 +2431,7 @@
                                            "release":  "Release",
                                            "size":  "10.5",
                                            "season":  "U26",
-                                           "inventory":  4
+                                           "inventory":  10
                                        },
                                        {
                                            "name":  "Salomon Sportstyle XT-6 GTX Black / Black - Ftw Silver",
@@ -2607,7 +2607,7 @@
                                            "release":  "Regular",
                                            "size":  "10.5",
                                            "season":  "P26",
-                                           "inventory":  74
+                                           "inventory":  206
                                        },
                                        {
                                            "name":  "Arc\u0027teryx Kragg SL Cotton SS Tee White",
@@ -2623,7 +2623,7 @@
                                            "release":  "Regular",
                                            "size":  "SM",
                                            "season":  "P25",
-                                           "inventory":  9
+                                           "inventory":  17
                                        },
                                        {
                                            "name":  "Arc\u0027teryx Gamma Lightweight Hoody / Headwaters",
@@ -2639,7 +2639,7 @@
                                            "release":  "Regular",
                                            "size":  "LRG",
                                            "season":  "P26",
-                                           "inventory":  0
+                                           "inventory":  3
                                        },
                                        {
                                            "name":  "ASICS GT-2160 White / Shamrock Green",
@@ -2751,7 +2751,7 @@
                                            "release":  "Release",
                                            "size":  "9",
                                            "season":  "P26",
-                                           "inventory":  4
+                                           "inventory":  27
                                        },
                                        {
                                            "name":  "Salomon XT-6 / Bistro Green",
@@ -421094,7 +421094,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/FQ8243-025_nike_p_6000_prm_photon_dust__khaki___light_bone_1_146.jpg?v=1701822352",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  20
+                     "inventory":  144
                  },
                  {
                      "date":  "2026-05-11",
@@ -421209,7 +421209,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/BDP25S02004457NP04_SQUARE.jpg?v=1750702016",
                      "netSales":  105,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  14
                  },
                  {
                      "date":  "2026-05-11",
@@ -421232,7 +421232,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-001_nike_reactx_rejuven8_black__black_4_e10b8501-e51c-4779-bc42-bce3ad3f1cfa.jpg?v=1769492947",
                      "netSales":  85,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  26
                  },
                  {
                      "date":  "2026-05-11",
@@ -421255,7 +421255,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009561_arc_teryx_atom_jacket__black_A.jpg?v=1771614297",
                      "netSales":  270,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-11",
@@ -421278,7 +421278,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-11",
@@ -421301,7 +421301,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-11",
@@ -421324,7 +421324,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-11",
@@ -421347,7 +421347,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-11",
@@ -421370,7 +421370,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-11",
@@ -421393,7 +421393,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/SAND-BLACK_tabi_sandal_black_1_6927eb39-5533-40c0-9a2c-da05bede2efc.jpg?v=1777358968",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  41
                  },
                  {
                      "date":  "2026-05-11",
@@ -421416,7 +421416,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-104_asics_gel_ds_trainer_14_cream__fossil_5.jpg?v=1755334177",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-11",
@@ -421439,7 +421439,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-104_asics_gel_ds_trainer_14_cream__fossil_5.jpg?v=1755334177",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-11",
@@ -421462,7 +421462,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-106_asics_gel_ds_trainer_14_white__port_royal_1.jpg?v=1759388812",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  38
                  },
                  {
                      "date":  "2026-05-11",
@@ -421485,7 +421485,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-106_asics_gel_ds_trainer_14_white__port_royal_1.jpg?v=1759388812",
                      "netSales":  -75,
                      "units":  -1,
-                     "inventory":  1
+                     "inventory":  38
                  },
                  {
                      "date":  "2026-05-11",
@@ -421508,7 +421508,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/FQ8243-025_nike_p_6000_prm_photon_dust__khaki___light_bone_1_212.jpg?v=1701913528",
                      "netSales":  85,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-11",
@@ -421554,7 +421554,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JQ6139_adidas_ae_1_low_nick_s_gift_blue_burst__core_black_1.jpg?v=1740036849",
                      "netSales":  105,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -421577,7 +421577,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/C012-TS-012_b.eautiful_hero_t_shirt_white_A.jpg?v=1757574878",
                      "netSales":  45,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-11",
@@ -421600,7 +421600,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/DN1338-004_nike_women_s_air_rift_breathe_black__black___white_1.jpg?v=1755856484",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-11",
@@ -421623,7 +421623,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI6687_adidas_women_s_japan_magic_beige__ivory___aurora_ivy_1.jpg?v=1769678436",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  47
                  },
                  {
                      "date":  "2026-05-11",
@@ -421646,7 +421646,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A753-100_asics_gel_nunobiki_white__pure_silver_1.jpg?v=1755931234",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-11",
@@ -421669,7 +421669,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1168951-HWB_hoka_kaha_3_low_gtx_tp_honeydew__black_1.jpg?v=1765356063",
                      "netSales":  190,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  9
                  },
                  {
                      "date":  "2026-05-11",
@@ -421692,7 +421692,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U2002DXB_new_balance_2002d_gtx_black__black_1.jpg?v=1764997347",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  2
+                     "inventory":  6
                  },
                  {
                      "date":  "2026-05-11",
@@ -421715,7 +421715,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IH3999_adidas_originals_women_s_tokyo_mj_cream_white__red_1.jpg?v=1774003282",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  19
+                     "inventory":  130
                  },
                  {
                      "date":  "2026-05-11",
@@ -421738,7 +421738,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JR4790_adidas_women_s_tokyo_mj_core_black__cream_white_1.jpg?v=1774003341",
                      "netSales":  -120,
                      "units":  -1,
-                     "inventory":  0
+                     "inventory":  66
                  },
                  {
                      "date":  "2026-05-11",
@@ -421761,7 +421761,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI3582_adidas_originals_women_s_taekwondo_mei_ballet__cream_white_4.jpg?v=1775886185",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-11",
@@ -421784,7 +421784,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HQ9282_adidas_originals_women_s_samba_og_core_black__cream_white_4.jpg?v=1775886250",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-11",
@@ -421807,7 +421807,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IH9373_adidas_originals_women_s_samba_og_cream_white__earth_strata_1.jpg?v=1775886311",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-11",
@@ -421830,7 +421830,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IB0018-004_nike_kobe_air_force_1_low_cool_grey__wolf_grey_4_1.jpg?v=1768417583",
                      "netSales":  -160,
                      "units":  -1,
-                     "inventory":  5
+                     "inventory":  53
                  },
                  {
                      "date":  "2026-05-11",
@@ -421853,7 +421853,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IB0018-101_nike_kobe_air_force_1_low_white__team_red_1.jpg?v=1773480884",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  27
                  },
                  {
                      "date":  "2026-05-11",
@@ -421876,7 +421876,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U19068G9_new_balance_1906l_black__angora_4.jpg?v=1767426323",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  16
                  },
                  {
                      "date":  "2026-05-11",
@@ -421899,7 +421899,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A879-021_asics_hypersync_graphite_grey__black_4.jpg?v=1775035962",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  40
                  },
                  {
                      "date":  "2026-05-11",
@@ -421922,7 +421922,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A879-020_asics_hypersync_piedmont_grey__pure_silver_1.jpg?v=1775036021",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-11",
@@ -421945,7 +421945,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MG10051200_on_cloudmonster_3_white__white_4.jpg?v=1770706574",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-11",
@@ -421968,7 +421968,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HQ9265_adidas_bw_army_core_white__power_green___gum_1.jpg?v=1767774455",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  19
+                     "inventory":  135
                  },
                  {
                      "date":  "2026-05-11",
@@ -421991,7 +421991,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009714-001929_arc_teryx_kragg_cotton_ls__24k_black_A.jpg?v=1768932954",
                      "netSales":  100,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-11",
@@ -422014,7 +422014,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IQ5649-500_jordan_trunner_os_archaeo_brown__persian_violet___earth_7.jpg?v=1757759348",
                      "netSales":  90,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422037,7 +422037,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422060,7 +422060,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422083,7 +422083,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422106,7 +422106,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422129,7 +422129,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422152,7 +422152,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422175,7 +422175,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009715-BLK_arc_teryx_vertex_speed_low_black__arctic_silk_1.jpg?v=1772544310",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422198,7 +422198,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-11",
@@ -422313,7 +422313,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HDRS-NAVY-HO25_4ye_signature_rhinestone_hoodie_navy_A.jpg?v=1764413352",
                      "netSales":  155,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-11",
@@ -422336,7 +422336,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/WDPT-GRYNVY-HO25_4ye_signature_zip_wide_pant_light_heather_grey_A.jpg?v=1768932875",
                      "netSales":  130,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-11",
@@ -422359,7 +422359,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  170,
                      "units":  2,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-11",
@@ -422382,7 +422382,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  170,
                      "units":  2,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-11",
@@ -422428,7 +422428,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/AWK-SP26-HD002_awake_collegiate_arch_zip_hoodie__navy_A.jpg?v=1773333924",
                      "netSales":  205,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-11",
@@ -422451,7 +422451,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/AWK-SP26-TS003_awake_good_everywhere_t_shirt__white_D.jpg?v=1773333952",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-11",
@@ -422497,7 +422497,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/125SP269008ST_supervsn_studio_cww_t_shirt__moss_D.jpg?v=1777051567",
                      "netSales":  65,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-11",
@@ -423785,7 +423785,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L41252900_salomon_advanced_xt_6_white__white___lunar_rock_3.jpg?v=1753167699",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  229
                  },
                  {
                      "date":  "2026-05-12",
@@ -423854,7 +423854,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/TB0500096481_timberland_authentic_3_eye_boat_shoe__burgundy_full_grain_1_1309030b-7eb2-4b78-a0ef-039190f656cf.jpg?v=1758089412",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-12",
@@ -423877,7 +423877,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JH7834_adidas_originals_bw_army_lux_footwear_white__footwear_white_1.jpg?v=1744972963",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  181
                  },
                  {
                      "date":  "2026-05-12",
@@ -423900,7 +423900,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JH7835_adidas_originals_bw_army_lux_core_black__core_black___gum_2_deab9ad8-8c40-4a36-94d4-839994bd7a3e.jpg?v=1775814661",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  22
+                     "inventory":  206
                  },
                  {
                      "date":  "2026-05-12",
@@ -423923,7 +423923,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009561_arc_teryx_atom_jacket__black_A.jpg?v=1771614297",
                      "netSales":  -270,
                      "units":  -1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-12",
@@ -423946,7 +423946,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009561_arc_teryx_atom_jacket__black_A.jpg?v=1771614297",
                      "netSales":  270,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-12",
@@ -423992,7 +423992,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JQ6139_adidas_ae_1_low_nick_s_gift_blue_burst__core_black_1.jpg?v=1740036849",
                      "netSales":  105,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-12",
@@ -424038,7 +424038,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A974-100_asics_x_hidden_gel_ds_trainer_14_white__blarney_1.jpg?v=1765946336",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-12",
@@ -424061,7 +424061,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U2010SGR_new_balance_2010_linen__desert_clay_5.jpg?v=1753856857",
                      "netSales":  100,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-12",
@@ -424084,7 +424084,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI3582_adidas_originals_women_s_taekwondo_mei_ballet__cream_white_4.jpg?v=1775886185",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-12",
@@ -424107,7 +424107,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A537-115_asics_gel_kayano_14_white__light_navy_3.jpg?v=1774686256",
                      "netSales":  115.5,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  68
                  },
                  {
                      "date":  "2026-05-12",
@@ -424130,7 +424130,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U19068G9_new_balance_1906l_black__angora_4.jpg?v=1767426323",
                      "netSales":  -145,
                      "units":  -1,
-                     "inventory":  4
+                     "inventory":  16
                  },
                  {
                      "date":  "2026-05-12",
@@ -424153,7 +424153,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1013A177-100_asics_superblast_3_white__black_4.jpg?v=1775036102",
                      "netSales":  148.5,
                      "units":  1,
-                     "inventory":  7
+                     "inventory":  45
                  },
                  {
                      "date":  "2026-05-12",
@@ -424176,7 +424176,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1011C083-401_asics_sonicblast_arctic_grey__grey_blue_1.jpg?v=1765863123",
                      "netSales":  175,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-12",
@@ -424199,7 +424199,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1011C083-401_asics_sonicblast_arctic_grey__grey_blue_1.jpg?v=1765863123",
                      "netSales":  175,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-12",
@@ -424222,7 +424222,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1011C083-401_asics_sonicblast_arctic_grey__grey_blue_1.jpg?v=1765863123",
                      "netSales":  175,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-12",
@@ -424245,7 +424245,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/590045.HM5B_mizuno_wave_rider_10_sport_harbor_mist__black_5.jpg?v=1769493109",
                      "netSales":  220,
                      "units":  1,
-                     "inventory":  7
+                     "inventory":  29
                  },
                  {
                      "date":  "2026-05-12",
@@ -424268,7 +424268,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U18908BN_new_balance_action_bronson_abzorb_1890_cyborg_tears_blue__g_1.jpg?v=1769678980",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  24
                  },
                  {
                      "date":  "2026-05-12",
@@ -424291,7 +424291,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MF30700791_on_cloudflow_5_ad_ivory__black_1.jpg?v=1770793113",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  24
                  },
                  {
                      "date":  "2026-05-12",
@@ -424314,7 +424314,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MG10051200_on_cloudmonster_3_white__white_4.jpg?v=1770706574",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-12",
@@ -424337,7 +424337,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/VansLXClassicSlip-On98PearlizedBlack_Black_1.jpg?v=1772798151",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-12",
@@ -424360,7 +424360,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/40614401_puma_women_s_speedcat_ballet__puma_black_1.jpg?v=1773396954",
                      "netSales":  110,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  39
                  },
                  {
                      "date":  "2026-05-12",
@@ -424383,7 +424383,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/001-PEWTER_norda_001_pewter_1.jpg?v=1757659508",
                      "netSales":  295,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  9
                  },
                  {
                      "date":  "2026-05-12",
@@ -424429,7 +424429,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/I035799-00SXX_carhartt_wip_og_dean_jacket_hamilton_brown_A.jpg?v=1764414157",
                      "netSales":  255,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-12",
@@ -424452,7 +424452,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IM1820-100_nike_kobe_viii_ext_protro_lt_orewood_brown__baroque_brown_1.jpg?v=1776243347",
                      "netSales":  245,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  8
                  },
                  {
                      "date":  "2026-05-12",
@@ -424475,7 +424475,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IU7543-065_nike_air_max_iii_cool_grey__infrared_23___light_smoke_grey_5.jpg?v=1775814889",
                      "netSales":  190,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  51
                  },
                  {
                      "date":  "2026-05-12",
@@ -424498,7 +424498,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U41T7UT_new_balance_x_lack_of_guidance_442_elite__military_green_1.jpg?v=1778308217",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  20
                  },
                  {
                      "date":  "2026-05-12",
@@ -424544,7 +424544,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  -170,
                      "units":  -2,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-12",
@@ -424567,7 +424567,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  -170,
                      "units":  -2,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-12",
@@ -424613,7 +424613,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/G101-OGT-OLI_gramicci_g_short_olive_B_b3aae9dd-e683-4b2d-bc01-c74e46939e39.jpg?v=1775626640",
                      "netSales":  112,
                      "units":  1,
-                     "inventory":  11
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-12",
@@ -424636,7 +424636,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/TN261WSHTS02_thisisneverthat_striped_t_shirt__green_A.jpg?v=1777035497",
                      "netSales":  -160,
                      "units":  -1,
-                     "inventory":  12
+                     "inventory":  39
                  },
                  {
                      "date":  "2026-05-12",
@@ -424659,7 +424659,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KH261WSORS02_khakis_nylon_hiking_short__black_1.jpg?v=1778149441",
                      "netSales":  255,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  9
                  },
                  {
                      "date":  "2026-05-12",
@@ -424705,7 +424705,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/55270_by_parra_play_ball_t_shirt__white_D.jpg?v=1777035114",
                      "netSales":  -100,
                      "units":  -1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-12",
@@ -424751,7 +424751,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/DA6672-100_nike_w_general_purpose_summit_white__university_gold_black_1.jpg?v=1775815252",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  12
                  },
                  {
                      "date":  "2026-05-12",
@@ -424774,7 +424774,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/2026_04_14_ls_nike_air-liquid-max_IQ7634-003_square.jpg?v=1777307531",
                      "netSales":  285,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-12",
@@ -425740,7 +425740,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L47581100_salomon_xt_6_gtx_white__white___ftw_silver_7.jpg?v=1755856663",
                      "netSales":  -250,
                      "units":  -1,
-                     "inventory":  0
+                     "inventory":  33
                  },
                  {
                      "date":  "2026-05-13",
@@ -425763,7 +425763,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JH7835_adidas_originals_bw_army_lux_core_black__core_black___gum_2_deab9ad8-8c40-4a36-94d4-839994bd7a3e.jpg?v=1775814661",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  28
+                     "inventory":  206
                  },
                  {
                      "date":  "2026-05-13",
@@ -425786,7 +425786,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HTG250123-BLU_honor_the_gift_gears_carpenter_short_blue_1.jpg?v=1747990929",
                      "netSales":  95,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-13",
@@ -425809,7 +425809,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-104_asics_gel_ds_trainer_14_cream__fossil_5.jpg?v=1755334177",
                      "netSales":  -75,
                      "units":  -1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-13",
@@ -425832,7 +425832,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-106_asics_gel_ds_trainer_14_white__port_royal_1.jpg?v=1759388812",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  6
+                     "inventory":  38
                  },
                  {
                      "date":  "2026-05-13",
@@ -425855,7 +425855,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/FQ8243-025_nike_p_6000_prm_photon_dust__khaki___light_bone_1_212.jpg?v=1701913528",
                      "netSales":  85,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -425878,7 +425878,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HF9117-003_nike_air_zoom_spiridon_sp_metallic_silver__metallic_silver_1.jpg?v=1743013448",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  6
                  },
                  {
                      "date":  "2026-05-13",
@@ -425901,7 +425901,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-002_nike_reactx_rejuven8_smoke_grey__smoke_grey_1.jpg?v=1772706492",
                      "netSales":  85,
                      "units":  1,
-                     "inventory":  16
+                     "inventory":  59
                  },
                  {
                      "date":  "2026-05-13",
@@ -425924,7 +425924,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A383-109_asics_gel_nyc_white__glacier_grey_1.jpg?v=1755931276",
                      "netSales":  90,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  14
                  },
                  {
                      "date":  "2026-05-13",
@@ -425947,7 +425947,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A974-100_asics_x_hidden_gel_ds_trainer_14_white__blarney_1.jpg?v=1765946336",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -425993,7 +425993,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI3582_adidas_originals_women_s_taekwondo_mei_ballet__cream_white_4.jpg?v=1775886185",
                      "netSales":  -120,
                      "units":  -1,
-                     "inventory":  18
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-13",
@@ -426016,7 +426016,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HQ9282_adidas_originals_women_s_samba_og_core_black__cream_white_4.jpg?v=1775886250",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -426039,7 +426039,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HQ9282_adidas_originals_women_s_samba_og_core_black__cream_white_4.jpg?v=1775886250",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -426062,7 +426062,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IH9373_adidas_originals_women_s_samba_og_cream_white__earth_strata_1.jpg?v=1775886311",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -426085,7 +426085,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HQ7017-146_nike_tiempo_streetgato_white__racer_blue___pink_blast_1.jpg?v=1769493315",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  54
                  },
                  {
                      "date":  "2026-05-13",
@@ -426108,7 +426108,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U19068G9_new_balance_1906l_black__angora_4.jpg?v=1767426323",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  16
                  },
                  {
                      "date":  "2026-05-13",
@@ -426131,7 +426131,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-110_asics_gel_ds_trainer_14_cream__clay_grey_4.jpg?v=1769678616",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  76
                  },
                  {
                      "date":  "2026-05-13",
@@ -426154,7 +426154,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1011C083-401_asics_sonicblast_arctic_grey__grey_blue_1.jpg?v=1765863123",
                      "netSales":  175,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -426177,7 +426177,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/42503001_dr._martens_mayfare_polished_smooth_leather_penny_loafers__1.jpg?v=1777111150",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  19
                  },
                  {
                      "date":  "2026-05-13",
@@ -426200,7 +426200,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/VansLXClassicSlip-On98PearlizedBlack_Black_1.jpg?v=1772798151",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-13",
@@ -426223,7 +426223,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/VansLXClassicSlip-On98PearlizedBlack_Black_1.jpg?v=1772798151",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-13",
@@ -426246,7 +426246,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/001-PEWTER_norda_001_pewter_1.jpg?v=1757659508",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  0
+                     "inventory":  9
                  },
                  {
                      "date":  "2026-05-13",
@@ -426315,7 +426315,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/FZ5590-900_nike_gt_future_metallic_red_bronze__black_6.jpg?v=1767774541",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  24
                  },
                  {
                      "date":  "2026-05-13",
@@ -426338,7 +426338,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49205900_salomon_xt_6_vanilla_ice__oxford_tan___heron_1_71208e4e-57b7-4b22-9b2a-cbf25babe7b2.jpg?v=1778308292",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  61
                  },
                  {
                      "date":  "2026-05-13",
@@ -426361,7 +426361,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  -140,
                      "units":  -1,
-                     "inventory":  1
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -426384,7 +426384,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-13",
@@ -426407,7 +426407,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4763_adidas_adizero_evo_sl_exo_ftwr_white__core_black___iron_met_1.jpg?v=1773902855",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  35
+                     "inventory":  244
                  },
                  {
                      "date":  "2026-05-13",
@@ -426430,7 +426430,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49108500_salomon_xt_6_shadow_vanilla_ice__eucalyptus___niagara_4.jpg?v=1776242786",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  66
                  },
                  {
                      "date":  "2026-05-13",
@@ -426499,7 +426499,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A19934C_converse_shai_001_triple_white_1_53345d49-e1ca-4673-ad44-8661c5092e0f.jpg?v=1776242457",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  25
                  },
                  {
                      "date":  "2026-05-13",
@@ -426522,7 +426522,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  85,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-13",
@@ -426545,7 +426545,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  85,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-13",
@@ -426591,7 +426591,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010606_arc_teryx_gamma_lightweight_hoody__headwaters_1.jpg?v=1778648932",
                      "netSales":  340,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -426614,7 +426614,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010606_arc_teryx_gamma_lightweight_hoody__headwaters_1.jpg?v=1778648932",
                      "netSales":  1360,
                      "units":  4,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -426637,7 +426637,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010606_arc_teryx_gamma_lightweight_hoody__headwaters_1.jpg?v=1778648932",
                      "netSales":  680,
                      "units":  2,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -426660,7 +426660,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010606_arc_teryx_gamma_lightweight_hoody__headwaters_1.jpg?v=1778648932",
                      "netSales":  1360,
                      "units":  4,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -426683,7 +426683,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010606_arc_teryx_gamma_lightweight_hoody__headwaters_1.jpg?v=1778648932",
                      "netSales":  340,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -426706,7 +426706,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010606_arc_teryx_gamma_lightweight_hoody__headwaters_1.jpg?v=1778648932",
                      "netSales":  1020,
                      "units":  3,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-13",
@@ -426729,7 +426729,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/I036202-3JTXX_carhartt_wip_royce_shirt_royce_stripe__icaria___white_A.jpg?v=1777036464",
                      "netSales":  112,
                      "units":  1,
-                     "inventory":  13
+                     "inventory":  47
                  },
                  {
                      "date":  "2026-05-13",
@@ -426752,7 +426752,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/TN261DSHTL01_thisisneverthat_washed_denim_shirt__dusty_mud_A.jpg?v=1777035681",
                      "netSales":  133,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  8
                  },
                  {
                      "date":  "2026-05-13",
@@ -426798,7 +426798,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/001A-W-CINDER_norda_women_s_001a__cinder_1.jpg?v=1773396620",
                      "netSales":  206.5,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-13",
@@ -426913,7 +426913,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/2026_04_14_ls_nike_air-liquid-max_IQ7634-003_square.jpg?v=1777307531",
                      "netSales":  285,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-13",
@@ -428270,7 +428270,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L47450600_salomon_sportstyle_xt_6_gtx_black__black___ftw_silver_5_fe5e7537-4306-4c1f-b21f-371b092d4137.jpg?v=1755856599",
                      "netSales":  250,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-14",
@@ -428293,7 +428293,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/BTKDO4_O.jpg?v=1734002825",
                      "netSales":  105,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-14",
@@ -428316,7 +428316,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3ME10331955_on_cloudmonster_2_paf_vapor__frost_1.jpg?v=1743678944",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-14",
@@ -428339,7 +428339,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JP8560_adidas_originals_x_sporty___rich_blanc_court_green__white___1.jpg?v=1747990257",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-14",
@@ -428362,7 +428362,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  9
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428385,7 +428385,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  9
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428408,7 +428408,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  9
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428431,7 +428431,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  9
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428454,7 +428454,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428477,7 +428477,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428500,7 +428500,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428523,7 +428523,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428546,7 +428546,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428569,7 +428569,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428592,7 +428592,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428615,7 +428615,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428638,7 +428638,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428661,7 +428661,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428684,7 +428684,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009533_arc_teryx_kragg_sl_cotton_ss_tee_tatsu_A_5d4b164c-fc1e-49e1-b8d9-f25356244e03.jpg?v=1772220252",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  17
                  },
                  {
                      "date":  "2026-05-14",
@@ -428707,7 +428707,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-002_nike_reactx_rejuven8_smoke_grey__smoke_grey_1.jpg?v=1772706492",
                      "netSales":  65,
                      "units":  1,
-                     "inventory":  16
+                     "inventory":  59
                  },
                  {
                      "date":  "2026-05-14",
@@ -428753,7 +428753,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IM7595-001_nike_women_s_total_90_metallic_silver__black_4.jpg?v=1774686034",
                      "netSales":  115,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  55
                  },
                  {
                      "date":  "2026-05-14",
@@ -429144,7 +429144,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI3582_adidas_originals_women_s_taekwondo_mei_ballet__cream_white_4.jpg?v=1775886185",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-14",
@@ -429167,7 +429167,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IH9373_adidas_originals_women_s_samba_og_cream_white__earth_strata_1.jpg?v=1775886311",
                      "netSales":  -120,
                      "units":  -1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-14",
@@ -429190,7 +429190,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A537-116_asics_gel_kayano_14_cream__raw_indigo_1.jpg?v=1770876990",
                      "netSales":  165,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  86
                  },
                  {
                      "date":  "2026-05-14",
@@ -429213,7 +429213,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/414571-102_air_jordan_13_retro_white__black___true_red_1.jpg?v=1772544550",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-14",
@@ -429236,7 +429236,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IM8814-001_nike_women_s_air_max_phenomena_black__metallic_gold_1.jpg?v=1767774958",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  31
                  },
                  {
                      "date":  "2026-05-14",
@@ -429259,7 +429259,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IM8814-001_nike_women_s_air_max_phenomena_black__metallic_gold_1.jpg?v=1767774958",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  31
                  },
                  {
                      "date":  "2026-05-14",
@@ -429282,7 +429282,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IQ1662-045_nike_air_max_95_big_bubble_i_95_black__black_4.jpg?v=1771580962",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-14",
@@ -429305,7 +429305,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U19068G9_new_balance_1906l_black__angora_4.jpg?v=1767426323",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  16
                  },
                  {
                      "date":  "2026-05-14",
@@ -429328,7 +429328,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A896-200_asics_gel_nyc_2.0_sshs_mahogany__black_4.jpg?v=1769243990",
                      "netSales":  190,
                      "units":  1,
-                     "inventory":  7
+                     "inventory":  61
                  },
                  {
                      "date":  "2026-05-14",
@@ -429351,7 +429351,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A972-201_asics_ub13_s_gel_sd_lyte_black_coffee__midnight_1.jpg?v=1775036151",
                      "netSales":  260,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-14",
@@ -429374,7 +429374,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/42503001_dr._martens_mayfare_polished_smooth_leather_penny_loafers__1.jpg?v=1777111150",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  19
                  },
                  {
                      "date":  "2026-05-14",
@@ -429397,7 +429397,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MG10051200_on_cloudmonster_3_white__white_4.jpg?v=1770706574",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-14",
@@ -429420,7 +429420,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49154700_salomon_xt_6__bistro_green_1.jpg?v=1770876554",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  6
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-14",
@@ -429443,7 +429443,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49154700_salomon_xt_6__bistro_green_1.jpg?v=1770876554",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-14",
@@ -429466,7 +429466,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49154700_salomon_xt_6__bistro_green_1.jpg?v=1770876554",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-14",
@@ -429489,7 +429489,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/VansLXClassicSlip-On98PearlizedBlack_Black_1.jpg?v=1772798151",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-14",
@@ -429512,7 +429512,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/40614401_puma_women_s_speedcat_ballet__puma_black_1.jpg?v=1773396954",
                      "netSales":  110,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  39
                  },
                  {
                      "date":  "2026-05-14",
@@ -429535,7 +429535,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  205,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-14",
@@ -429972,7 +429972,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49205900_salomon_xt_6_vanilla_ice__oxford_tan___heron_1_71208e4e-57b7-4b22-9b2a-cbf25babe7b2.jpg?v=1778308292",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  61
                  },
                  {
                      "date":  "2026-05-14",
@@ -429995,7 +429995,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-14",
@@ -430018,7 +430018,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-14",
@@ -430041,7 +430041,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4763_adidas_adizero_evo_sl_exo_ftwr_white__core_black___iron_met_1.jpg?v=1773902855",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  34
+                     "inventory":  244
                  },
                  {
                      "date":  "2026-05-14",
@@ -430064,7 +430064,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IB8954-001_women_s_nike_air_rift_black__metallic_silver_1.jpg?v=1770441478",
                      "netSales":  135,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  6
                  },
                  {
                      "date":  "2026-05-14",
@@ -430087,7 +430087,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/40295307_puma_vs_1_metallic_cool_blue__black_4.jpg?v=1776414770",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  56
                  },
                  {
                      "date":  "2026-05-14",
@@ -430110,7 +430110,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/40530105_puma_vs_1_contact_black__gray_echo_5.jpg?v=1776414669",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  6
+                     "inventory":  44
                  },
                  {
                      "date":  "2026-05-14",
@@ -430133,7 +430133,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IW6276-001_jordan_1_retro_low_og_black__black___varsity_red_1.jpg?v=1777359146",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  16
+                     "inventory":  45
                  },
                  {
                      "date":  "2026-05-14",
@@ -430156,7 +430156,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IW6276-001_jordan_1_retro_low_og_black__black___varsity_red_1.jpg?v=1777359146",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  45
                  },
                  {
                      "date":  "2026-05-14",
@@ -430179,7 +430179,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/S70966-3_saucony_x_jae_tips_progrid_triumph_4_violet__earth_1.jpg?v=1760610100",
                      "netSales":  144,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-14",
@@ -430248,7 +430248,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A18977C_converse_shai_001_charm_black_1_e0a46025-8a74-4e34-bd58-53603ebd5e17.jpg?v=1776242339",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-14",
@@ -430271,7 +430271,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U18908JY_new_balance_x_jfg_1890_1_e24ad859-7f40-4678-9d69-c04804a32622.jpg?v=1777613669",
                      "netSales":  260,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  25
                  },
                  {
                      "date":  "2026-05-14",
@@ -430317,7 +430317,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009626-SEA_arc_teryx_granville_30_carryall_bag__sea_salt_2_0476004c-5fa3-47dc-ae8c-650bf29b48dd.jpg?v=1771649846",
                      "netSales":  190,
                      "units":  1,
-                     "inventory":  35
+                     "inventory":  38
                  },
                  {
                      "date":  "2026-05-14",
@@ -430340,7 +430340,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  370,
                      "units":  2,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-14",
@@ -430363,7 +430363,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-14",
@@ -430386,7 +430386,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-14",
@@ -430409,7 +430409,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-14",
@@ -430432,7 +430432,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-14",
@@ -430455,7 +430455,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-14",
@@ -430478,7 +430478,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010299-SEA_arc_teryx_konseal_pant__sea_salt_1.jpg?v=1778649153",
                      "netSales":  260,
                      "units":  1,
-                     "inventory":  12
+                     "inventory":  32
                  },
                  {
                      "date":  "2026-05-14",
@@ -430524,7 +430524,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/POC-SS26-2050-315-0010_patta_arc_logo_crewneck_sweater__light_melange_grey_A.jpg?v=1773334299",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  6
+                     "inventory":  21
                  },
                  {
                      "date":  "2026-05-14",
@@ -430547,7 +430547,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/POC-SS26-2050-325-0035_patta_protect_yourself_hooded_sweater__black_D.jpg?v=1773334354",
                      "netSales":  165,
                      "units":  1,
-                     "inventory":  13
+                     "inventory":  43
                  },
                  {
                      "date":  "2026-05-14",
@@ -430570,7 +430570,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5032-400_nike_x_nigo_air_force_3_low_sp_midnight_navy__off_white_1.jpg?v=1770273900",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  44
                  },
                  {
                      "date":  "2026-05-14",
@@ -430593,7 +430593,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5032-400_nike_x_nigo_air_force_3_low_sp_midnight_navy__off_white_1.jpg?v=1770273900",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  44
                  },
                  {
                      "date":  "2026-05-14",
@@ -430639,7 +430639,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430662,7 +430662,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430685,7 +430685,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430708,7 +430708,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430731,7 +430731,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430754,7 +430754,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  110,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430777,7 +430777,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430800,7 +430800,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430823,7 +430823,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430846,7 +430846,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430869,7 +430869,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430892,7 +430892,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430915,7 +430915,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430938,7 +430938,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -430961,7 +430961,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-14",
@@ -433284,7 +433284,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/TB0500096481_timberland_authentic_3_eye_boat_shoe__burgundy_full_grain_1_1309030b-7eb2-4b78-a0ef-039190f656cf.jpg?v=1758089412",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  9
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-15",
@@ -433307,7 +433307,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/TB0500096481_timberland_authentic_3_eye_boat_shoe__burgundy_full_grain_1_1309030b-7eb2-4b78-a0ef-039190f656cf.jpg?v=1758089412",
                      "netSales":  -180,
                      "units":  -1,
-                     "inventory":  3
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-15",
@@ -433330,7 +433330,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/401666-02_puma_mostro_mesh_white__white_1.jpg?v=1748935602",
                      "netSales":  70,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  63
                  },
                  {
                      "date":  "2026-05-15",
@@ -433353,7 +433353,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HTG250123-BLU_honor_the_gift_gears_carpenter_short_blue_1.jpg?v=1747990929",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -433376,7 +433376,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HTG250123-BLU_honor_the_gift_gears_carpenter_short_blue_1.jpg?v=1747990929",
                      "netSales":  95,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -433399,7 +433399,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009561_arc_teryx_atom_jacket__black_A.jpg?v=1771614297",
                      "netSales":  270,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -433422,7 +433422,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/SAND-BLACK_tabi_sandal_black_1_6927eb39-5533-40c0-9a2c-da05bede2efc.jpg?v=1777358968",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  41
                  },
                  {
                      "date":  "2026-05-15",
@@ -433445,7 +433445,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-104_asics_gel_ds_trainer_14_cream__fossil_5.jpg?v=1755334177",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-15",
@@ -433468,7 +433468,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A607-106_asics_gel_ds_trainer_14_white__port_royal_1.jpg?v=1759388812",
                      "netSales":  75,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  38
                  },
                  {
                      "date":  "2026-05-15",
@@ -433491,7 +433491,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HF1199-001_nike_women_s_air_max_sndr_silver__black___white_1.jpg?v=1744973962",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  3
                  },
                  {
                      "date":  "2026-05-15",
@@ -433514,7 +433514,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JR8886_adidas_women_s_originals_gazelle_lo_pro_core_black__ftwr_1.jpg?v=1756971627",
                      "netSales":  55,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-15",
@@ -433537,7 +433537,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-002_nike_reactx_rejuven8_smoke_grey__smoke_grey_1.jpg?v=1772706492",
                      "netSales":  -85,
                      "units":  -1,
-                     "inventory":  16
+                     "inventory":  59
                  },
                  {
                      "date":  "2026-05-15",
@@ -433560,7 +433560,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-002_nike_reactx_rejuven8_smoke_grey__smoke_grey_1.jpg?v=1772706492",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  11
+                     "inventory":  59
                  },
                  {
                      "date":  "2026-05-15",
@@ -433583,7 +433583,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-002_nike_reactx_rejuven8_smoke_grey__smoke_grey_1.jpg?v=1772706492",
                      "netSales":  65,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  59
                  },
                  {
                      "date":  "2026-05-15",
@@ -433606,7 +433606,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5060-002_nike_reactx_rejuven8_smoke_grey__smoke_grey_1.jpg?v=1772706492",
                      "netSales":  65,
                      "units":  1,
-                     "inventory":  13
+                     "inventory":  59
                  },
                  {
                      "date":  "2026-05-15",
@@ -433652,7 +433652,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI3582_adidas_originals_women_s_taekwondo_mei_ballet__cream_white_4.jpg?v=1775886185",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-15",
@@ -433675,7 +433675,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IH9373_adidas_originals_women_s_samba_og_cream_white__earth_strata_1.jpg?v=1775886311",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-15",
@@ -433698,7 +433698,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/DZ5485-003_air_jordan_1_retro_high_og_cool_grey__black___sail_1.jpg?v=1770274088",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  23
                  },
                  {
                      "date":  "2026-05-15",
@@ -433721,7 +433721,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IQ1662-045_nike_air_max_95_big_bubble_i_95_black__black_4.jpg?v=1771580962",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-15",
@@ -433744,7 +433744,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IB0018-004_nike_kobe_air_force_1_low_cool_grey__wolf_grey_4_1.jpg?v=1768417583",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  10
+                     "inventory":  53
                  },
                  {
                      "date":  "2026-05-15",
@@ -433767,7 +433767,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A896-750_asics_gel_nyc_2.0_sshs_sulphur__black_1.jpg?v=1769244048",
                      "netSales":  205,
                      "units":  1,
-                     "inventory":  6
+                     "inventory":  45
                  },
                  {
                      "date":  "2026-05-15",
@@ -433790,7 +433790,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A879-021_asics_hypersync_graphite_grey__black_4.jpg?v=1775035962",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  40
                  },
                  {
                      "date":  "2026-05-15",
@@ -433813,7 +433813,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/590045.HM5B_mizuno_wave_rider_10_sport_harbor_mist__black_5.jpg?v=1769493109",
                      "netSales":  -220,
                      "units":  -1,
-                     "inventory":  1
+                     "inventory":  29
                  },
                  {
                      "date":  "2026-05-15",
@@ -433836,7 +433836,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U18908BN_new_balance_action_bronson_abzorb_1890_cyborg_tears_blue__g_1.jpg?v=1769678980",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  24
                  },
                  {
                      "date":  "2026-05-15",
@@ -433859,7 +433859,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MG10051200_on_cloudmonster_3_white__white_4.jpg?v=1770706574",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -433882,7 +433882,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49154700_salomon_xt_6__bistro_green_1.jpg?v=1770876554",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  0
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-15",
@@ -433905,7 +433905,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49154700_salomon_xt_6__bistro_green_1.jpg?v=1770876554",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-15",
@@ -433974,7 +433974,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IQ5649-500_jordan_trunner_os_archaeo_brown__persian_violet___earth_7.jpg?v=1757759348",
                      "netSales":  90,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  5
                  },
                  {
                      "date":  "2026-05-15",
@@ -433997,7 +433997,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  205,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434020,7 +434020,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  1230,
                      "units":  6,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434043,7 +434043,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  820,
                      "units":  4,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434066,7 +434066,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  615,
                      "units":  3,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434089,7 +434089,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  1025,
                      "units":  5,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434112,7 +434112,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  1025,
                      "units":  5,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434135,7 +434135,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  1230,
                      "units":  6,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434158,7 +434158,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000010397-ARC_arc_teryx_norvan_ld_4_gtx_arctic_silk__arctic_silk_1.jpg?v=1771482866",
                      "netSales":  1640,
                      "units":  8,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434204,7 +434204,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49205900_salomon_xt_6_vanilla_ice__oxford_tan___heron_1_71208e4e-57b7-4b22-9b2a-cbf25babe7b2.jpg?v=1778308292",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  61
                  },
                  {
                      "date":  "2026-05-15",
@@ -434227,7 +434227,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-15",
@@ -434250,7 +434250,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  8
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-15",
@@ -434273,7 +434273,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KJ4401_adidas_x_song_for_the_mute_women_s_tokyo_off_white__core_bl_4.jpg?v=1778564772",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-15",
@@ -434296,7 +434296,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KJ4402_adidas_x_song_for_the_mute_women_s_tokyo_bluebird__off_whit_4.jpg?v=1778564702",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  32
                  },
                  {
                      "date":  "2026-05-15",
@@ -434319,7 +434319,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KJ4402_adidas_x_song_for_the_mute_women_s_tokyo_bluebird__off_whit_4.jpg?v=1778564702",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  32
                  },
                  {
                      "date":  "2026-05-15",
@@ -434342,7 +434342,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434365,7 +434365,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434388,7 +434388,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434411,7 +434411,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434434,7 +434434,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434457,7 +434457,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434480,7 +434480,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434503,7 +434503,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434526,7 +434526,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434549,7 +434549,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-15",
@@ -434572,7 +434572,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434595,7 +434595,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434618,7 +434618,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434641,7 +434641,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434664,7 +434664,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434687,7 +434687,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434710,7 +434710,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434733,7 +434733,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434756,7 +434756,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-15",
@@ -434779,7 +434779,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IQ0271-047_women_s_nike_total_90_soft_pearl__velvet_brown___gum_4.jpg?v=1770274194",
                      "netSales":  125,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  40
                  },
                  {
                      "date":  "2026-05-15",
@@ -434802,7 +434802,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/1203A740-102_asics_gel_kayano_14_white__menthol_1.jpg?v=1762419827",
                      "netSales":  120,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-15",
@@ -434825,7 +434825,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IM1820-100_nike_kobe_viii_ext_protro_lt_orewood_brown__baroque_brown_1.jpg?v=1776243347",
                      "netSales":  245,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  8
                  },
                  {
                      "date":  "2026-05-15",
@@ -434848,7 +434848,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  -85,
                      "units":  -1,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-15",
@@ -434871,7 +434871,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009926_arc_teryx_kragg_cotton_lithographica_ss__black_A.jpg?v=1771614520",
                      "netSales":  -85,
                      "units":  -1,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-15",
@@ -434940,7 +434940,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-15",
@@ -434963,7 +434963,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/X000009316-HAB_arc_teryx_cronin_cotton_pant__habitat_B.jpg?v=1773333842",
                      "netSales":  185,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-15",
@@ -434986,7 +434986,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/G104-OGT-GRY_gramicci_gadget_short_smoke_grey_A_542fa30d-c3b2-4556-885c-ae341578e7f1.jpg?v=1775626568",
                      "netSales":  -150,
                      "units":  -1,
-                     "inventory":  6
+                     "inventory":  19
                  },
                  {
                      "date":  "2026-05-15",
@@ -435009,7 +435009,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/G6SM-J050-GRN_gramicci_guide_jacket__field_green_A.jpg?v=1775210467",
                      "netSales":  227,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  11
                  },
                  {
                      "date":  "2026-05-15",
@@ -435032,7 +435032,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/TN261DSHTL01_thisisneverthat_washed_denim_shirt__dusty_mud_A.jpg?v=1777035681",
                      "netSales":  190,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  8
                  },
                  {
                      "date":  "2026-05-15",
@@ -435055,7 +435055,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/25SS-01-10-CAM_metalwood_metal_logo_5_panel_hat__real_leaf_camo_A.jpg?v=1777034071",
                      "netSales":  65,
                      "units":  1,
-                     "inventory":  80
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-15",
@@ -435078,7 +435078,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/25SS-01-10-CAM_metalwood_metal_logo_5_panel_hat__real_leaf_camo_A.jpg?v=1777034071",
                      "netSales":  65,
                      "units":  1,
-                     "inventory":  80
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-15",
@@ -435101,7 +435101,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/MOPQ-SP26-11_museum_of_peace_and_quiet_museum_by_pq_crewneck__black_1.jpg?v=1777111292",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  15
                  },
                  {
                      "date":  "2026-05-15",
@@ -435124,7 +435124,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/DA6672-100_nike_w_general_purpose_summit_white__university_gold_black_1.jpg?v=1775815252",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  12
                  },
                  {
                      "date":  "2026-05-15",
@@ -435147,7 +435147,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/2026_04_14_ls_nike_air-liquid-max_IQ7634-003_square.jpg?v=1777307531",
                      "netSales":  285,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-15",
@@ -435239,7 +435239,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/GS-AQ230EL1A-MAR26_casio_aq230el_1a__black_2.jpg?v=1776335435",
                      "netSales":  100,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  1
                  },
                  {
                      "date":  "2026-05-15",
@@ -435262,7 +435262,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435285,7 +435285,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435308,7 +435308,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  -200,
                      "units":  -1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435331,7 +435331,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435354,7 +435354,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435377,7 +435377,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435400,7 +435400,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  -200,
                      "units":  -1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -435423,7 +435423,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-15",
@@ -437309,7 +437309,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/MR993GL_new_balance_mr993gl__grey_1.jpg?v=1777326583",
                      "netSales":  275,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  43
                  },
                  {
                      "date":  "2026-05-16",
@@ -437332,7 +437332,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/MR993GL_new_balance_mr993gl__grey_1.jpg?v=1777326583",
                      "netSales":  275,
                      "units":  1,
-                     "inventory":  6
+                     "inventory":  43
                  },
                  {
                      "date":  "2026-05-16",
@@ -437378,7 +437378,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JH7835_adidas_originals_bw_army_lux_core_black__core_black___gum_2_deab9ad8-8c40-4a36-94d4-839994bd7a3e.jpg?v=1775814661",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  7
+                     "inventory":  206
                  },
                  {
                      "date":  "2026-05-16",
@@ -437401,7 +437401,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/MOPQ-SS25-59_museum_of_peace___quiet_woodmark_nylon_short__bone_B.jpg?v=1755231118",
                      "netSales":  90,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  8
                  },
                  {
                      "date":  "2026-05-16",
@@ -437424,7 +437424,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HTG250123-BLU_honor_the_gift_gears_carpenter_short_blue_1.jpg?v=1747990929",
                      "netSales":  95,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-16",
@@ -437447,7 +437447,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HTG250123-BLU_honor_the_gift_gears_carpenter_short_blue_1.jpg?v=1747990929",
                      "netSales":  95,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-16",
@@ -437470,7 +437470,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HJ9351-002_nike_total_90_sp_metallic_silver__black___university_red_4.jpg?v=1775036519",
                      "netSales":  145,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  53
                  },
                  {
                      "date":  "2026-05-16",
@@ -437493,7 +437493,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/JR8886_adidas_women_s_originals_gazelle_lo_pro_core_black__ftwr_1.jpg?v=1756971627",
                      "netSales":  55,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  2
                  },
                  {
                      "date":  "2026-05-16",
@@ -437539,7 +437539,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI6678_adidas_women_s_handball_spezial_magic_beige__ivory_4.jpg?v=1769678378",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  79
                  },
                  {
                      "date":  "2026-05-16",
@@ -437562,7 +437562,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/DZ5485-003_air_jordan_1_retro_high_og_cool_grey__black___sail_1.jpg?v=1770274088",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  23
                  },
                  {
                      "date":  "2026-05-16",
@@ -437585,7 +437585,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IQ1662-045_nike_air_max_95_big_bubble_i_95_black__black_4.jpg?v=1771580962",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  10
                  },
                  {
                      "date":  "2026-05-16",
@@ -437608,7 +437608,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/42503001_dr._martens_mayfare_polished_smooth_leather_penny_loafers__1.jpg?v=1777111150",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  19
                  },
                  {
                      "date":  "2026-05-16",
@@ -437631,7 +437631,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U18908BN_new_balance_action_bronson_abzorb_1890_cyborg_tears_blue__g_1.jpg?v=1769678980",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  24
                  },
                  {
                      "date":  "2026-05-16",
@@ -437654,7 +437654,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/U18908BN_new_balance_action_bronson_abzorb_1890_cyborg_tears_blue__g_1.jpg?v=1769678980",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  24
                  },
                  {
                      "date":  "2026-05-16",
@@ -437677,7 +437677,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MG10051200_on_cloudmonster_3_white__white_4.jpg?v=1770706574",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -437700,7 +437700,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/3MG10051200_on_cloudmonster_3_white__white_4.jpg?v=1770706574",
                      "netSales":  170,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -437723,7 +437723,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49154700_salomon_xt_6__bistro_green_1.jpg?v=1770876554",
                      "netSales":  195,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  30
                  },
                  {
                      "date":  "2026-05-16",
@@ -437769,7 +437769,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49205900_salomon_xt_6_vanilla_ice__oxford_tan___heron_1_71208e4e-57b7-4b22-9b2a-cbf25babe7b2.jpg?v=1778308292",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  61
                  },
                  {
                      "date":  "2026-05-16",
@@ -437792,7 +437792,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/L49205900_salomon_xt_6_vanilla_ice__oxford_tan___heron_1_71208e4e-57b7-4b22-9b2a-cbf25babe7b2.jpg?v=1778308292",
                      "netSales":  230,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  61
                  },
                  {
                      "date":  "2026-05-16",
@@ -437815,7 +437815,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-16",
@@ -437838,7 +437838,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KK2683_adidas_adizero_evo_sl_atr_core_black__silver_met._4.jpg?v=1767938970",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-16",
@@ -437861,7 +437861,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4737_adidas_x_song_for_the_mute_women_s_tokyo_black__gold_1.jpg?v=1778564614",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  36
                  },
                  {
                      "date":  "2026-05-16",
@@ -437884,7 +437884,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KJ4401_adidas_x_song_for_the_mute_women_s_tokyo_off_white__core_bl_4.jpg?v=1778564772",
                      "netSales":  200,
                      "units":  1,
-                     "inventory":  5
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-16",
@@ -437907,7 +437907,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-16",
@@ -437930,7 +437930,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-16",
@@ -437953,7 +437953,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-16",
@@ -437976,7 +437976,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4761_adidas_x_song_for_the_mute_samba_lx_freizeit_black__white___1.jpg?v=1778564422",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  4
                  },
                  {
                      "date":  "2026-05-16",
@@ -437999,7 +437999,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  -240,
                      "units":  -1,
-                     "inventory":  2
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438022,7 +438022,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438045,7 +438045,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438068,7 +438068,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  1
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438091,7 +438091,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  0,
                      "units":  0,
-                     "inventory":  1
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438114,7 +438114,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438137,7 +438137,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/KI4762_adidas_x_song_for_the_mute_samba_lx_freizeit_brown__white_4.jpg?v=1778564542",
                      "netSales":  240,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  7
                  },
                  {
                      "date":  "2026-05-16",
@@ -438160,7 +438160,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/S70948-1_saucony_progrid_paramount_black__white_1.jpg?v=1768467287",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-16",
@@ -438183,7 +438183,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/IW6276-001_jordan_1_retro_low_og_black__black___varsity_red_1.jpg?v=1777359146",
                      "netSales":  180,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  45
                  },
                  {
                      "date":  "2026-05-16",
@@ -438206,7 +438206,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HDZP-GRYNVY-HO25_4ye_signature_zip_hoodie_light_heather_grey_C.jpg?v=1768932789",
                      "netSales":  160,
                      "units":  1,
-                     "inventory":  17
+                     "inventory":  22
                  },
                  {
                      "date":  "2026-05-16",
@@ -438229,7 +438229,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5032-400_nike_x_nigo_air_force_3_low_sp_midnight_navy__off_white_1.jpg?v=1770273900",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  3
+                     "inventory":  44
                  },
                  {
                      "date":  "2026-05-16",
@@ -438252,7 +438252,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/HV5032-400_nike_x_nigo_air_force_3_low_sp_midnight_navy__off_white_1.jpg?v=1770273900",
                      "netSales":  150,
                      "units":  1,
-                     "inventory":  2
+                     "inventory":  44
                  },
                  {
                      "date":  "2026-05-16",
@@ -438275,7 +438275,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/DA6672-100_nike_w_general_purpose_summit_white__university_gold_black_1.jpg?v=1775815252",
                      "netSales":  140,
                      "units":  1,
-                     "inventory":  0
+                     "inventory":  12
                  },
                  {
                      "date":  "2026-05-16",
@@ -438298,7 +438298,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/2026_04_14_ls_nike_air-liquid-max_IQ7634-003_square.jpg?v=1777307531",
                      "netSales":  -285,
                      "units":  -1,
-                     "inventory":  4
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-16",
@@ -438321,7 +438321,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/2026_04_14_ls_nike_air-liquid-max_IQ7634-003_square.jpg?v=1777307531",
                      "netSales":  285,
                      "units":  1,
-                     "inventory":  4
+                     "inventory":  34
                  },
                  {
                      "date":  "2026-05-16",
@@ -438344,7 +438344,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  -200,
                      "units":  -1,
-                     "inventory":  2
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-16",
@@ -438367,7 +438367,7 @@
                      "image":  "https://cdn.shopify.com/s/files/1/0616/3517/files/A23978C_converse_shai_001_premium_ink_1.jpg?v=1778737690",
                      "netSales":  -200,
                      "units":  -1,
-                     "inventory":  4
+                     "inventory":  37
                  },
                  {
                      "date":  "2026-05-16",
