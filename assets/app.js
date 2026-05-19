@@ -384,9 +384,8 @@ function topProducts(rows, limit, previousRows = []) {
       class: row.class,
       netSales: 0,
       units: 0,
-      inventory: 0,
+      inventory: null,
       inventoryDate: "",
-      inventoryKeys: new Set(),
       sizes: new Set(),
       weeks: {},
       previousSales: previousByTitle[row.title] || 0,
@@ -394,15 +393,11 @@ function topProducts(rows, limit, previousRows = []) {
     acc[row.title].netSales += Number(row.netSales) || 0;
     acc[row.title].units += Number(row.units) || 0;
     acc[row.title].sizes.add(row.size);
-    const inventoryKey = `${row.sku}|${row.size}`;
     if (!acc[row.title].inventoryDate || row.date > acc[row.title].inventoryDate) {
       acc[row.title].inventoryDate = row.date;
-      acc[row.title].inventory = 0;
-      acc[row.title].inventoryKeys = new Set();
-    }
-    if (row.date === acc[row.title].inventoryDate && !acc[row.title].inventoryKeys.has(inventoryKey)) {
-      acc[row.title].inventoryKeys.add(inventoryKey);
-      acc[row.title].inventory += Number(row.inventory) || 0;
+      acc[row.title].inventory = Number(row.inventory) || 0;
+    } else if (row.date === acc[row.title].inventoryDate) {
+      acc[row.title].inventory = Math.min(acc[row.title].inventory, Number(row.inventory) || 0);
     }
     acc[row.title].weeks[row.week] ||= 0;
     acc[row.title].weeks[row.week] += Number(row.netSales) || 0;
