@@ -9,6 +9,26 @@ const state = {
     min: "",
     max: "",
   },
+  comparisonRange: {
+    start: "",
+    end: "",
+  },
+  trendPoints: [],
+  productSort: {
+    key: "netSales",
+    direction: "desc",
+  },
+  visiblePanels: {
+    status: true,
+    vendors: true,
+    departments: true,
+    regions: true,
+    productType: true,
+    class: true,
+    subClass: true,
+    size: true,
+    season: false,
+  },
   filters: {
     week: "All",
     status: "All",
@@ -49,6 +69,8 @@ const elements = {
   dateStart: document.querySelector("#dateStart"),
   dateEnd: document.querySelector("#dateEnd"),
   compareMode: document.querySelector("#compareMode"),
+  compareStart: document.querySelector("#compareStart"),
+  compareEnd: document.querySelector("#compareEnd"),
   resetDateButton: document.querySelector("#resetDateButton"),
   kpiSales: document.querySelector("#kpiSales"),
   kpiUnits: document.querySelector("#kpiUnits"),
@@ -57,16 +79,23 @@ const elements = {
   salesDelta: document.querySelector("#salesDelta"),
   unitsDelta: document.querySelector("#unitsDelta"),
   trendChart: document.querySelector("#trendChart"),
+  trendTooltip: document.querySelector("#trendTooltip"),
   statusBars: document.querySelector("#statusBars"),
   vendorBars: document.querySelector("#vendorBars"),
   departmentBars: document.querySelector("#departmentBars"),
   productTypeBars: document.querySelector("#productTypeBars"),
+  classBars: document.querySelector("#classBars"),
+  subClassBars: document.querySelector("#subClassBars"),
   provinceBars: document.querySelector("#provinceBars"),
   seasonMix: document.querySelector("#seasonMix"),
   sizeBars: document.querySelector("#sizeBars"),
   productTable: document.querySelector("#productTable"),
   tableCount: document.querySelector("#tableCount"),
   metricButtons: document.querySelectorAll("[data-metric]"),
+  sortButtons: document.querySelectorAll("[data-sort]"),
+  panelToggles: document.querySelectorAll("[data-panel-toggle]"),
+  panels: document.querySelectorAll("[data-panel]"),
+  panelRows: document.querySelectorAll("[data-panel-row]"),
 };
 
 fetch("data/dashboard-data.json")
@@ -93,6 +122,7 @@ function normalizeRow(row) {
     department: row.department || "(blank)",
     productType: row.productType || "(blank)",
     class: row.class || "(blank)",
+    subClass: row.subClass || "(blank)",
     vendor: row.vendor || "(blank)",
     netSales: Number(row.netSales) || 0,
     units: Number(row.units) || 0,
@@ -123,8 +153,13 @@ function setupFilters(data) {
     input.min = state.dateRange.min;
     input.max = state.dateRange.max;
   }
+  for (const input of [elements.compareStart, elements.compareEnd]) {
+    input.min = state.dateRange.min;
+    input.max = state.dateRange.max;
+  }
   elements.dateStart.value = state.dateRange.start;
   elements.dateEnd.value = state.dateRange.end;
+  syncComparisonInputs();
 }
 
 function fillSelect(select, values, labeler = (value) => value) {
@@ -146,6 +181,7 @@ function bindEvents() {
       state.dateRange.end = state.dateRange.start;
       elements.dateEnd.value = state.dateRange.end;
     }
+    if (state.compareMode !== "customRange") syncComparisonInputs();
     render();
   });
   elements.dateEnd.addEventListener("change", (event) => {
@@ -156,6 +192,7 @@ function bindEvents() {
       state.dateRange.start = state.dateRange.end;
       elements.dateStart.value = state.dateRange.start;
     }
+    if (state.compareMode !== "customRange") syncComparisonInputs();
     render();
   });
   elements.resetDateButton.addEventListener("click", () => {
@@ -165,10 +202,35 @@ function bindEvents() {
     elements.dateStart.value = state.dateRange.start;
     elements.dateEnd.value = state.dateRange.end;
     elements.weekFilter.value = "All";
+    if (state.compareMode !== "customRange") syncComparisonInputs();
     render();
   });
   elements.compareMode.addEventListener("change", (event) => {
     state.compareMode = event.target.value;
+    if (state.compareMode !== "customRange") syncComparisonInputs();
+    updateComparisonInputState();
+    render();
+  });
+  elements.compareStart.addEventListener("change", (event) => {
+    state.compareMode = "customRange";
+    elements.compareMode.value = "customRange";
+    state.comparisonRange.start = event.target.value;
+    if (state.comparisonRange.end && state.comparisonRange.start > state.comparisonRange.end) {
+      state.comparisonRange.end = state.comparisonRange.start;
+      elements.compareEnd.value = state.comparisonRange.end;
+    }
+    updateComparisonInputState();
+    render();
+  });
+  elements.compareEnd.addEventListener("change", (event) => {
+    state.compareMode = "customRange";
+    elements.compareMode.value = "customRange";
+    state.comparisonRange.end = event.target.value;
+    if (state.comparisonRange.start && state.comparisonRange.end < state.comparisonRange.start) {
+      state.comparisonRange.start = state.comparisonRange.end;
+      elements.compareStart.value = state.comparisonRange.start;
+    }
+    updateComparisonInputState();
     render();
   });
   elements.statusFilter.addEventListener("change", (event) => {
@@ -239,6 +301,28 @@ function bindEvents() {
       render();
     });
   });
+  elements.sortButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sort;
+      if (state.productSort.key === key) {
+        state.productSort.direction = state.productSort.direction === "desc" ? "asc" : "desc";
+      } else {
+        state.productSort.key = key;
+        state.productSort.direction = defaultSortDirection(key);
+      }
+      render();
+    });
+  });
+  elements.panelToggles.forEach((toggle) => {
+    const panel = toggle.dataset.panelToggle;
+    toggle.checked = Boolean(state.visiblePanels[panel]);
+    toggle.addEventListener("change", () => {
+      state.visiblePanels[panel] = toggle.checked;
+      renderPanelVisibility();
+    });
+  });
+  elements.trendChart.addEventListener("mousemove", showTrendTooltip);
+  elements.trendChart.addEventListener("mouseleave", hideTrendTooltip);
   window.addEventListener("resize", () => renderTrend(filteredRows()));
 }
 
@@ -266,7 +350,7 @@ function matchesFilters(row) {
   if (state.filters.className !== "All" && row.class !== state.filters.className) return false;
   if (state.filters.vendor !== "All" && row.vendor !== state.filters.vendor) return false;
   if (!query) return true;
-  return `${row.sku} ${row.title} ${row.vendor} ${row.productType} ${row.class} ${row.department} ${row.release} ${row.season} ${row.size}`
+  return `${row.sku} ${row.title} ${row.vendor} ${row.productType} ${row.class} ${row.subClass} ${row.department} ${row.release} ${row.season} ${row.size}`
     .toLowerCase()
     .includes(query);
 }
@@ -293,9 +377,13 @@ function render() {
   const unitsDelta = pctChange(totals.units, previousTotals.units);
   const comparison = comparisonDateRange();
   const comparisonLabel = comparison ? `${formatDate(comparison.start)} to ${formatDate(comparison.end)}` : "";
-  elements.salesDelta.textContent = previousRows.length ? `${formatPct(salesDelta)} vs ${comparisonLabel}` : "No comparison";
+  elements.salesDelta.textContent = previousRows.length
+    ? `${formatSignedMoney(totals.netSales - previousTotals.netSales)} (${formatPct(salesDelta)}) vs ${comparisonLabel}`
+    : "No comparison";
   elements.salesDelta.className = previousRows.length && salesDelta < 0 ? "negative" : previousRows.length ? "positive" : "";
-  elements.unitsDelta.textContent = previousRows.length ? `${formatPct(unitsDelta)} vs ${comparisonLabel}` : "Net quantity";
+  elements.unitsDelta.textContent = previousRows.length
+    ? `${formatSignedNumber(totals.units - previousTotals.units)} (${formatPct(unitsDelta)}) vs ${comparisonLabel}`
+    : "Net quantity";
   elements.unitsDelta.className = previousRows.length && unitsDelta < 0 ? "negative" : previousRows.length ? "positive" : "";
 
   renderTrend(rows);
@@ -305,8 +393,11 @@ function render() {
   renderBars(elements.provinceBars, topGroups(rows, "province", 8), topGroups(previousRows, "province", 100), totals.netSales);
   renderSeasonMix(rows);
   renderBars(elements.productTypeBars, topGroups(rows, "productType", 8), topGroups(previousRows, "productType", 100), totals.netSales);
+  renderBars(elements.classBars, topGroups(rows, "class", 8), topGroups(previousRows, "class", 100), totals.netSales);
+  renderBars(elements.subClassBars, topGroups(rows, "subClass", 8), topGroups(previousRows, "subClass", 100), totals.netSales);
   renderBars(elements.sizeBars, topGroups(rows, "size", 8), topGroups(previousRows, "size", 100), totals.netSales);
-  renderProducts(topProducts(rows, 40, previousRows), totals.netSales);
+  renderProducts(topProducts(rows, 40, previousRows, totals.netSales), totals.netSales);
+  renderPanelVisibility();
 }
 
 function rollupTotals(rows) {
@@ -363,10 +454,11 @@ function topGroups(rows, key, limit) {
     .slice(0, limit);
 }
 
-function topProducts(rows, limit, previousRows = []) {
+function topProducts(rows, limit, previousRows = [], totalSales = 0) {
   const previousByTitle = previousRows.reduce((acc, row) => {
-    acc[row.title] ||= 0;
-    acc[row.title] += row.netSales;
+    acc[row.title] ||= { netSales: 0, units: 0 };
+    acc[row.title].netSales += Number(row.netSales) || 0;
+    acc[row.title].units += Number(row.units) || 0;
     return acc;
   }, {});
 
@@ -377,22 +469,28 @@ function topProducts(rows, limit, previousRows = []) {
       image: row.image,
       vendor: row.vendor,
       productType: row.productType,
-      status: row.status,
+      statuses: new Set(),
       release: row.release,
       season: row.season,
       department: row.department,
       class: row.class,
+      subClass: row.subClass,
       netSales: 0,
       units: 0,
       inventory: null,
       inventoryDate: "",
       sizes: new Set(),
       weeks: {},
-      previousSales: previousByTitle[row.title] || 0,
+      previousSales: previousByTitle[row.title]?.netSales || 0,
+      previousUnits: previousByTitle[row.title]?.units || 0,
+      share: 0,
+      salesChange: 0,
+      unitsChange: 0,
     };
     acc[row.title].netSales += Number(row.netSales) || 0;
     acc[row.title].units += Number(row.units) || 0;
     acc[row.title].sizes.add(row.size);
+    acc[row.title].statuses.add(row.status);
     if (!acc[row.title].inventoryDate || row.date > acc[row.title].inventoryDate) {
       acc[row.title].inventoryDate = row.date;
       acc[row.title].inventory = Number(row.inventory) || 0;
@@ -404,8 +502,14 @@ function topProducts(rows, limit, previousRows = []) {
     return acc;
   }, {});
 
-  return Object.values(grouped)
-    .sort((a, b) => b.netSales - a.netSales)
+  return sortProducts(
+    Object.values(grouped).map((product) => ({
+      ...product,
+      share: totalSales ? product.netSales / totalSales : 0,
+      salesChange: product.netSales - product.previousSales,
+      unitsChange: product.units - product.previousUnits,
+    })),
+  )
     .slice(0, limit);
 }
 
@@ -494,17 +598,19 @@ function renderSeasonMix(rows) {
 }
 
 function renderProducts(products, totalSales = 0) {
+  updateSortButtons();
   elements.tableCount.textContent = `${products.length} products`;
   if (!products.length) {
-    elements.productTable.innerHTML = `<tr><td class="empty" colspan="11">No matching products</td></tr>`;
+    elements.productTable.innerHTML = `<tr><td class="empty" colspan="12">No matching products</td></tr>`;
     return;
   }
   elements.productTable.innerHTML = products
     .map((product) => {
       const share = totalSales ? product.netSales / totalSales : 0;
-      const delta = pctChange(product.netSales, product.previousSales);
-      const deltaLabel = product.previousSales ? formatPct(delta) : "-";
-      const deltaClass = product.previousSales ? (delta >= 0 ? "positive" : "negative") : "";
+      const salesDelta = pctChange(product.netSales, product.previousSales);
+      const unitsDelta = pctChange(product.units, product.previousUnits);
+      const salesDeltaClass = product.previousSales ? (salesDelta >= 0 ? "positive" : "negative") : "";
+      const unitsDeltaClass = product.previousUnits ? (unitsDelta >= 0 ? "positive" : "negative") : "";
       return `
         <tr>
           <td>
@@ -517,7 +623,7 @@ function renderProducts(products, totalSales = 0) {
             </div>
           </td>
           <td>${escapeHtml(product.vendor)}</td>
-          <td>${escapeHtml(product.status)}</td>
+          <td>${escapeHtml(statusLabel(product.statuses))}</td>
           <td>${escapeHtml(product.release || "")}</td>
           <td>${escapeHtml(product.season || "")}</td>
           <td>${escapeHtml(sizeLabel(product.sizes))}</td>
@@ -525,11 +631,61 @@ function renderProducts(products, totalSales = 0) {
           <td class="num">${oneDecimal.format(product.units)}</td>
           <td class="num">${formatPctPlain(share)}</td>
           <td class="num">${oneDecimal.format(product.inventory)}</td>
-          <td class="num ${deltaClass}">${deltaLabel}</td>
+          <td class="num ${salesDeltaClass}">${product.previousSales ? `${formatSignedMoney(product.salesChange)} (${formatPct(salesDelta)})` : "-"}</td>
+          <td class="num ${unitsDeltaClass}">${product.previousUnits ? `${formatSignedNumber(product.unitsChange)} (${formatPct(unitsDelta)})` : "-"}</td>
         </tr>
       `;
     })
     .join("");
+}
+
+function sortProducts(products) {
+  const { key, direction } = state.productSort;
+  const multiplier = direction === "asc" ? 1 : -1;
+  return products.sort((a, b) => {
+    const left = sortValue(a, key);
+    const right = sortValue(b, key);
+    if (typeof left === "number" && typeof right === "number") {
+      if (left === right) return b.netSales - a.netSales;
+      return (left - right) * multiplier;
+    }
+    const result = String(left).localeCompare(String(right));
+    if (result === 0) return b.netSales - a.netSales;
+    return result * multiplier;
+  });
+}
+
+function sortValue(product, key) {
+  if (key === "status") return statusLabel(product.statuses);
+  if (key === "vendor") return product.vendor || "";
+  if (key === "name") return product.name || "";
+  if (key === "share") return product.share;
+  if (key === "salesChange") return product.salesChange;
+  if (key === "unitsChange") return product.unitsChange;
+  return Number(product[key]) || 0;
+}
+
+function defaultSortDirection(key) {
+  return ["name", "vendor", "status"].includes(key) ? "asc" : "desc";
+}
+
+function updateSortButtons() {
+  elements.sortButtons.forEach((button) => {
+    const active = button.dataset.sort === state.productSort.key;
+    button.classList.toggle("active", active);
+    button.classList.toggle("asc", active && state.productSort.direction === "asc");
+    button.classList.toggle("desc", active && state.productSort.direction === "desc");
+  });
+}
+
+function renderPanelVisibility() {
+  elements.panels.forEach((panel) => {
+    panel.hidden = !state.visiblePanels[panel.dataset.panel];
+  });
+  elements.panelRows.forEach((row) => {
+    const panels = [...row.querySelectorAll("[data-panel]")];
+    row.hidden = panels.length > 0 && panels.every((panel) => panel.hidden);
+  });
 }
 
 function renderTrend(rows) {
@@ -543,7 +699,7 @@ function renderTrend(rows) {
 
   const grouped = Object.values(groupMetric(rows, "date")).sort((a, b) => a.name.localeCompare(b.name));
   context.clearRect(0, 0, rect.width, 260);
-  drawChart(context, rect.width, 260, grouped, state.metric);
+  state.trendPoints = drawChart(context, rect.width, 260, grouped, state.metric);
 }
 
 function drawChart(context, width, height, points, metric) {
@@ -560,7 +716,7 @@ function drawChart(context, width, height, points, metric) {
 
   if (!points.length) {
     context.fillText("No matching data", pad.left, height / 2);
-    return;
+    return [];
   }
 
   const max = Math.max(...points.map((point) => Math.max(point[metric], 0)), 1);
@@ -606,6 +762,7 @@ function drawChart(context, width, height, points, metric) {
       context.restore();
     }
   });
+  return coords;
 }
 
 function pctChange(current, previous) {
@@ -615,6 +772,13 @@ function pctChange(current, previous) {
 
 function comparisonDateRange() {
   if (state.compareMode === "none") return null;
+  if (state.compareMode === "customRange") {
+    if (!state.comparisonRange.start || !state.comparisonRange.end) return null;
+    return {
+      start: state.comparisonRange.start,
+      end: state.comparisonRange.end,
+    };
+  }
   if (!state.dateRange.start || !state.dateRange.end) return null;
   const start = parseDate(state.dateRange.start);
   const end = parseDate(state.dateRange.end);
@@ -629,6 +793,55 @@ function comparisonDateRange() {
   };
 }
 
+function syncComparisonInputs() {
+  const comparison = comparisonDateRange();
+  if (comparison) {
+    state.comparisonRange.start = comparison.start;
+    state.comparisonRange.end = comparison.end;
+  } else if (!state.comparisonRange.start || !state.comparisonRange.end) {
+    state.comparisonRange.start = state.dateRange.min;
+    state.comparisonRange.end = state.dateRange.min;
+  }
+  elements.compareStart.value = state.comparisonRange.start;
+  elements.compareEnd.value = state.comparisonRange.end;
+  updateComparisonInputState();
+}
+
+function updateComparisonInputState() {
+  const disabled = state.compareMode === "none";
+  elements.compareStart.disabled = disabled;
+  elements.compareEnd.disabled = disabled;
+  elements.compareStart.closest("label").classList.toggle("muted-control", disabled);
+  elements.compareEnd.closest("label").classList.toggle("muted-control", disabled);
+}
+
+function showTrendTooltip(event) {
+  if (!state.trendPoints.length) return;
+  const rect = elements.trendChart.getBoundingClientRect();
+  const x = event.clientX - rect.left;
+  const nearest = state.trendPoints.reduce((best, point) => {
+    return Math.abs(point.x - x) < Math.abs(best.x - x) ? point : best;
+  }, state.trendPoints[0]);
+  if (Math.abs(nearest.x - x) > 34) {
+    hideTrendTooltip();
+    return;
+  }
+  elements.trendTooltip.hidden = false;
+  elements.trendTooltip.innerHTML = `
+    <strong>${escapeHtml(formatDate(nearest.point.name))}</strong>
+    <span>Sales ${escapeHtml(money.format(nearest.point.netSales))}</span>
+    <span>Units ${escapeHtml(oneDecimal.format(nearest.point.units))}</span>
+  `;
+  const left = Math.min(Math.max(nearest.x + 10, 8), rect.width - 150);
+  const top = Math.max(nearest.y - 66, 8);
+  elements.trendTooltip.style.left = `${left}px`;
+  elements.trendTooltip.style.top = `${top}px`;
+}
+
+function hideTrendTooltip() {
+  elements.trendTooltip.hidden = true;
+}
+
 function formatPct(value) {
   const sign = value > 0 ? "+" : "";
   return `${sign}${(value * 100).toFixed(1)}%`;
@@ -636,6 +849,16 @@ function formatPct(value) {
 
 function formatPctPlain(value) {
   return `${(value * 100).toFixed(1)}%`;
+}
+
+function formatSignedMoney(value) {
+  const prefix = value > 0 ? "+" : "";
+  return `${prefix}${money.format(value)}`;
+}
+
+function formatSignedNumber(value) {
+  const prefix = value > 0 ? "+" : "";
+  return `${prefix}${oneDecimal.format(value)}`;
 }
 
 function sortWeeks(weeks) {
@@ -683,6 +906,14 @@ function sizeLabel(sizes) {
   if (!values.length) return "";
   if (values.length <= 4) return values.join(", ");
   return `${values.slice(0, 4).join(", ")} +${values.length - 4}`;
+}
+
+function statusLabel(statuses) {
+  const values = [...statuses].filter((value) => value && value !== "(blank)");
+  const hasMarkdown = values.some((value) => /markdown/i.test(value));
+  const hasFullPrice = values.some((value) => /full\s*price/i.test(value));
+  if (hasMarkdown && hasFullPrice) return "Markdown + Full Price";
+  return values.sort().join(" + ") || "";
 }
 
 function shortLabel(value) {
