@@ -230,10 +230,12 @@ foreach ($path in $WorkbookPath) {
       $weekInfo = Retail-Week-Info $date
       $week = if ($weekInfo.week -ne '') { $weekInfo.week } elseif ($fileWeek -ne '') { $fileWeek } else { [System.IO.Path]::GetFileNameWithoutExtension($path) }
       $title = if ($idx.ContainsKey('Product Title') -and $idx['Product Title'] -lt $r.Count) { Safe-Key $r[$idx['Product Title']] '(no title)' } else { '(no title)' }
+      if ($title -match '^\s*Grand\s+Total\s*$' -or $sku -match '^\s*Grand\s+Total\s*$') { continue }
       $vendor = if ($idx.ContainsKey('Product Vendor') -and $idx['Product Vendor'] -lt $r.Count) { Safe-Key $r[$idx['Product Vendor']] '(blank)' } else { '(blank)' }
       $productType = if ($idx.ContainsKey('Product Type') -and $idx['Product Type'] -lt $r.Count) { Safe-Key $r[$idx['Product Type']] '(blank)' } else { '(blank)' }
       $department = if ($idx.ContainsKey('Department') -and $idx['Department'] -lt $r.Count) { Safe-Key $r[$idx['Department']] '(blank)' } else { '(blank)' }
       $class = if ($idx.ContainsKey('CLASS') -and $idx['CLASS'] -lt $r.Count) { Safe-Key $r[$idx['CLASS']] '(blank)' } else { '(blank)' }
+      $subClass = if ($idx.ContainsKey('SUB_CLASS') -and $idx['SUB_CLASS'] -lt $r.Count) { Safe-Key $r[$idx['SUB_CLASS']] '(blank)' } else { '(blank)' }
       $status = if ($idx.ContainsKey('Status') -and $idx['Status'] -lt $r.Count) { Safe-Key $r[$idx['Status']] '(blank)' } else { '(blank)' }
       $release = if ($idx.ContainsKey('Release') -and $idx['Release'] -lt $r.Count) { Safe-Key $r[$idx['Release']] '(blank)' } else { '(blank)' }
       $size = if ($idx.ContainsKey('Option 2') -and $idx['Option 2'] -lt $r.Count) { Safe-Key $r[$idx['Option 2']] '(blank)' } else { '(blank)' }
@@ -255,6 +257,7 @@ foreach ($path in $WorkbookPath) {
         productType = $productType
         department = $department
         class = $class
+        subClass = $subClass
         status = $status
         release = $release
         size = $size
@@ -290,6 +293,7 @@ $byVendor = @{}
 $byProductType = @{}
 $byDepartment = @{}
 $byClass = @{}
+$bySubClass = @{}
 $byProvince = @{}
 $byProduct = @{}
 
@@ -311,6 +315,7 @@ foreach ($row in $allRows) {
   Add-Metric $byProductType $row.productType $sales $units
   Add-Metric $byDepartment $row.department $sales $units
   Add-Metric $byClass $row.class $sales $units
+  Add-Metric $bySubClass $row.subClass $sales $units
   Add-Metric $byProvince $row.province $sales $units
 
   $productKey = $row.title
@@ -324,6 +329,7 @@ foreach ($row in $allRows) {
       productType = $row.productType
       department = $row.department
       class = $row.class
+      subClass = $row.subClass
       status = $row.status
       release = $row.release
       size = $row.size
@@ -368,6 +374,7 @@ $payload = [ordered]@{
     productTypes = @($byProductType.Keys | Sort-Object)
     departments = @($byDepartment.Keys | Sort-Object)
     classes = @($byClass.Keys | Sort-Object)
+    subClasses = @($bySubClass.Keys | Sort-Object)
   }
   series = [ordered]@{
     byDate = $dateTrend
@@ -380,6 +387,7 @@ $payload = [ordered]@{
     byProductType = Top-Array $byProductType 20
     byDepartment = Top-Array $byDepartment 20
     byClass = Top-Array $byClass 20
+    bySubClass = Top-Array $bySubClass 20
     byProvince = Top-Array $byProvince 20
     topProducts = Top-Array $byProduct 75
   }
