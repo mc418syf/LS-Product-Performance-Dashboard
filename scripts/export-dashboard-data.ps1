@@ -217,7 +217,11 @@ foreach ($path in $WorkbookPath) {
 
     $headers = $basicRows[0]
     $idx = @{}
-    for ($i = 0; $i -lt $headers.Count; $i++) { $idx[$headers[$i]] = $i }
+    for ($i = 0; $i -lt $headers.Count; $i++) {
+      if (-not [string]::IsNullOrWhiteSpace($headers[$i]) -and -not $idx.ContainsKey($headers[$i])) {
+        $idx[$headers[$i]] = $i
+      }
+    }
 
     $weekRows = New-Object System.Collections.ArrayList
     for ($i = 1; $i -lt $basicRows.Count; $i++) {
