@@ -398,7 +398,7 @@ $payload = [ordered]@{
   rows = @($allRows)
 }
 
-$json = $payload | ConvertTo-Json -Depth 8
+$json = $payload | ConvertTo-Json -Depth 8 -Compress
 $dir = Split-Path -Parent $OutputPath
 if ($dir -and -not (Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
 Set-Content -LiteralPath $OutputPath -Value $json -Encoding UTF8
