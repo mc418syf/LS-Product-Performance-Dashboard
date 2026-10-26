@@ -65,7 +65,6 @@
           <legend>Sections</legend>
           <label><input type="checkbox" data-panel-toggle="status" checked /> Status Mix</label>
           <label><input type="checkbox" data-panel-toggle="releaseMix" checked /> Release vs Regular</label>
-          <label><input type="checkbox" data-panel-toggle="release" checked /> Release Status</label>
           <label><input type="checkbox" data-panel-toggle="vendors" checked /> Top Vendors</label>
           <label><input type="checkbox" data-panel-toggle="departments" checked /> Departments</label>
           <label><input type="checkbox" data-panel-toggle="regions" checked /> Regions</label>
@@ -167,7 +166,7 @@
             <div class="panel-head">
               <div>
                 <h3>4 Week Trend</h3>
-                <p>Recent weekly trend by selected breakdown.</p>
+                <p>Selected week and three prior weeks.</p>
               </div>
               <label class="trend-control">
                 <span>Breakdown</span>
@@ -178,7 +177,7 @@
                   <option value="class">Class</option>
                   <option value="subClass">Sub Class</option>
                   <option value="status">Status</option>
-                  <option value="release">Release Status</option>
+                  <option value="release">Release vs Regular</option>
                   <option value="season">Season</option>
                   <option value="size">Size</option>
                 </select>
@@ -211,15 +210,6 @@
             </div>
             <div id="releaseMixBars" class="bar-list"></div>
           </article>
-          <article class="panel" data-panel="release">
-            <div class="panel-head">
-              <div>
-                <h3>Release Status</h3>
-                <p>Regular, new, and old release sales.</p>
-              </div>
-            </div>
-            <div id="releaseBars" class="bar-list"></div>
-          </article>
           <article class="panel" data-panel="vendors">
             <div class="panel-head">
               <div>
@@ -229,9 +219,6 @@
             </div>
             <div id="vendorBars" class="bar-list compact"></div>
           </article>
-        </section>
-
-        <section class="grid four" data-panel-row>
           <article class="panel" data-panel="departments">
             <div class="panel-head">
               <div>
@@ -241,6 +228,9 @@
             </div>
             <div id="departmentBars" class="bar-list compact"></div>
           </article>
+        </section>
+
+        <section class="grid four" data-panel-row>
           <article class="panel" data-panel="regions">
             <div class="panel-head">
               <div>
@@ -268,9 +258,6 @@
             </div>
             <div id="classBars" class="bar-list compact"></div>
           </article>
-        </section>
-
-        <section class="grid three" data-panel-row>
           <article class="panel" data-panel="subClass">
             <div class="panel-head">
               <div>
@@ -280,6 +267,9 @@
             </div>
             <div id="subClassBars" class="bar-list compact"></div>
           </article>
+        </section>
+
+        <section class="grid two equal" data-panel-row>
           <article class="panel" data-panel="size">
             <div class="panel-head">
               <div>
