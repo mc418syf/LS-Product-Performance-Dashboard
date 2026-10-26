@@ -28,7 +28,6 @@ const state = {
   visiblePanels: {
     status: true,
     releaseMix: true,
-    release: true,
     vendors: true,
     departments: true,
     regions: true,
@@ -99,7 +98,6 @@ const elements = {
   fourWeekTooltip: document.querySelector("#fourWeekTooltip"),
   statusBars: document.querySelector("#statusBars"),
   releaseMixBars: document.querySelector("#releaseMixBars"),
-  releaseBars: document.querySelector("#releaseBars"),
   vendorBars: document.querySelector("#vendorBars"),
   departmentBars: document.querySelector("#departmentBars"),
   productTypeBars: document.querySelector("#productTypeBars"),
@@ -135,8 +133,7 @@ function normalizeRow(row) {
     ...row,
     date: row.date || "",
     status: row.status || "(blank)",
-    release: row.release || "(blank)",
-    releaseMix: releaseMixCategory(row.release),
+    release: releaseMixCategory(row.release),
     season: row.season || "(blank)",
     size: row.size || "(blank)",
     department: row.department || "(blank)",
@@ -158,7 +155,7 @@ function setupFilters(data) {
   fillSelect(elements.weekFilter, ["All", ...sortWeeks(data.filters.weeks)]);
   elements.weekFilter.value = "All";
   fillSelect(elements.statusFilter, ["All", ...data.filters.statuses]);
-  fillSelect(elements.releaseFilter, ["All", ...(data.filters.releases || [])]);
+  fillSelect(elements.releaseFilter, ["All", ...[...new Set(state.rows.map((row) => row.release))].sort()]);
   fillSelect(elements.seasonFilter, ["All", ...(data.filters.seasons || [])]);
   fillSelect(elements.sizeFilter, ["All", ...(data.filters.sizes || [])]);
   fillSelect(elements.departmentFilter, ["All", ...data.filters.departments]);
@@ -331,7 +328,7 @@ function bindEvents() {
   });
   elements.fourWeekDimension.addEventListener("change", (event) => {
     state.fourWeekDimension = event.target.value;
-    renderFourWeekTrend(filteredRows());
+    renderFourWeekTrend();
   });
   elements.sortButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -360,7 +357,7 @@ function bindEvents() {
   window.addEventListener("resize", () => {
     const rows = filteredRows();
     renderTrend(rows);
-    renderFourWeekTrend(rows);
+    renderFourWeekTrend();
   });
 }
 
@@ -376,9 +373,9 @@ function comparisonRows() {
   return state.rows.filter((row) => matchesFilters(row) && isInDateRange(row, previous.start, previous.end));
 }
 
-function matchesFilters(row) {
+function matchesFilters(row, ignoreWeek = false) {
   const query = state.filters.search;
-  if (state.filters.week !== "All" && row.week !== state.filters.week) return false;
+  if (!ignoreWeek && state.filters.week !== "All" && row.week !== state.filters.week) return false;
   if (state.filters.status !== "All" && row.status !== state.filters.status) return false;
   if (state.filters.release !== "All" && row.release !== state.filters.release) return false;
   if (state.filters.season !== "All" && row.season !== state.filters.season) return false;
@@ -426,10 +423,9 @@ function render() {
   elements.unitsDelta.className = previousRows.length && unitsDelta < 0 ? "negative" : previousRows.length ? "positive" : "";
 
   renderTrend(rows);
-  renderFourWeekTrend(rows);
+  renderFourWeekTrend();
   renderBars(elements.statusBars, topGroups(rows, "status", 8), topGroups(previousRows, "status", 100), totals.netSales);
-  renderBars(elements.releaseMixBars, topGroups(rows, "releaseMix", 3), topGroups(previousRows, "releaseMix", 3), totals.netSales);
-  renderBars(elements.releaseBars, topGroups(rows, "release", 8), topGroups(previousRows, "release", 100), totals.netSales);
+  renderBars(elements.releaseMixBars, topGroups(rows, "release", 3), topGroups(previousRows, "release", 3), totals.netSales);
   renderBars(elements.vendorBars, topGroups(rows, "vendor", 8), topGroups(previousRows, "vendor", 100), totals.netSales);
   renderBars(elements.departmentBars, topGroups(rows, "department", 8), topGroups(previousRows, "department", 100), totals.netSales);
   renderBars(elements.provinceBars, topGroups(rows, "province", 8), topGroups(previousRows, "province", 100), totals.netSales);
@@ -734,9 +730,12 @@ function renderPanelVisibility() {
   });
   elements.panelRows.forEach((row) => {
     const panels = [...row.querySelectorAll("[data-panel]")];
-    const visibleCount = panels.filter((panel) => !panel.hidden).length;
+    const visiblePanels = panels.filter((panel) => !panel.hidden);
+    const visibleCount = visiblePanels.length;
     row.hidden = panels.length > 0 && visibleCount === 0;
-    row.classList.toggle("single-visible", visibleCount === 1);
+    row.dataset.visibleCount = String(visibleCount);
+    panels.forEach((panel) => panel.classList.remove("last-visible"));
+    visiblePanels.at(-1)?.classList.add("last-visible");
   });
 }
 
@@ -754,7 +753,30 @@ function renderTrend(rows) {
   state.trendPoints = drawChart(context, rect.width, 260, grouped, state.metric);
 }
 
-function renderFourWeekTrend(rows) {
+function fourWeekTrendData() {
+  let anchor = state.dateRange.end;
+  if (state.filters.week !== "All") {
+    anchor = state.rows
+      .filter((row) => row.week === state.filters.week && isInDateRange(row, state.dateRange.start, state.dateRange.end))
+      .reduce((latest, row) => row.date > latest ? row.date : latest, "");
+  }
+  if (!anchor) return { weeks: [], rows: [] };
+
+  const weekStart = parseDate(anchor);
+  weekStart.setDate(weekStart.getDate() - weekStart.getDay() - 21);
+  const start = toIsoDate(weekStart);
+  const windowRows = state.rows.filter((row) => row.date >= start && row.date <= anchor);
+  const firstDateByWeek = new Map();
+  windowRows.forEach((row) => {
+    if (row.week && (!firstDateByWeek.has(row.week) || row.date < firstDateByWeek.get(row.week))) {
+      firstDateByWeek.set(row.week, row.date);
+    }
+  });
+  const weeks = [...firstDateByWeek.keys()].sort((a, b) => firstDateByWeek.get(a).localeCompare(firstDateByWeek.get(b)));
+  return { weeks, rows: windowRows.filter((row) => matchesFilters(row, true)) };
+}
+
+function renderFourWeekTrend() {
   const canvas = elements.fourWeekChart;
   const context = canvas.getContext("2d");
   const rect = canvas.getBoundingClientRect();
@@ -765,9 +787,7 @@ function renderFourWeekTrend(rows) {
   context.setTransform(ratio, 0, 0, ratio, 0, 0);
   context.clearRect(0, 0, rect.width, height);
 
-  const weeks = [...new Set(rows.map((row) => row.week).filter(Boolean))]
-    .sort((a, b) => weekNumber(a) - weekNumber(b))
-    .slice(-4);
+  const { weeks, rows } = fourWeekTrendData();
 
   if (!weeks.length) {
     drawEmptyChart(context, rect.width, height, "No matching weekly data");
@@ -1067,7 +1087,7 @@ function showFourWeekTooltip(event) {
     return;
   }
 
-  renderFourWeekTrend(filteredRows());
+  renderFourWeekTrend();
   const context = elements.fourWeekChart.getContext("2d");
   drawHoverGuide(context, guideX, null, hover.plot.top, hover.plot.bottom, "#111111");
   const week = hover.weeks[nearestIndex];
@@ -1100,7 +1120,7 @@ function showFourWeekTooltip(event) {
 
 function hideFourWeekTooltip() {
   elements.fourWeekTooltip.hidden = true;
-  renderFourWeekTrend(filteredRows());
+  renderFourWeekTrend();
 }
 
 function drawHoverGuide(context, x, y, top, bottom, color) {
