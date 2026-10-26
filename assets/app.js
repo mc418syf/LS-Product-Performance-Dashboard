@@ -27,6 +27,8 @@ const state = {
   },
   visiblePanels: {
     status: true,
+    releaseMix: true,
+    release: true,
     vendors: true,
     departments: true,
     regions: true,
@@ -43,6 +45,7 @@ const state = {
     season: "All",
     size: "All",
     department: "All",
+    region: "All",
     productType: "All",
     className: "All",
     vendor: "All",
@@ -70,6 +73,7 @@ const elements = {
   seasonFilter: document.querySelector("#seasonFilter"),
   sizeFilter: document.querySelector("#sizeFilter"),
   departmentFilter: document.querySelector("#departmentFilter"),
+  regionFilter: document.querySelector("#regionFilter"),
   productTypeFilter: document.querySelector("#productTypeFilter"),
   classFilter: document.querySelector("#classFilter"),
   vendorFilter: document.querySelector("#vendorFilter"),
@@ -94,6 +98,8 @@ const elements = {
   fourWeekLegend: document.querySelector("#fourWeekLegend"),
   fourWeekTooltip: document.querySelector("#fourWeekTooltip"),
   statusBars: document.querySelector("#statusBars"),
+  releaseMixBars: document.querySelector("#releaseMixBars"),
+  releaseBars: document.querySelector("#releaseBars"),
   vendorBars: document.querySelector("#vendorBars"),
   departmentBars: document.querySelector("#departmentBars"),
   productTypeBars: document.querySelector("#productTypeBars"),
@@ -130,9 +136,11 @@ function normalizeRow(row) {
     date: row.date || "",
     status: row.status || "(blank)",
     release: row.release || "(blank)",
+    releaseMix: releaseMixCategory(row.release),
     season: row.season || "(blank)",
     size: row.size || "(blank)",
     department: row.department || "(blank)",
+    province: row.province || "(blank)",
     productType: row.productType || "(blank)",
     class: row.class || "(blank)",
     subClass: row.subClass || "(blank)",
@@ -154,6 +162,7 @@ function setupFilters(data) {
   fillSelect(elements.seasonFilter, ["All", ...(data.filters.seasons || [])]);
   fillSelect(elements.sizeFilter, ["All", ...(data.filters.sizes || [])]);
   fillSelect(elements.departmentFilter, ["All", ...data.filters.departments]);
+  fillSelect(elements.regionFilter, ["All", ...[...new Set(state.rows.map((row) => row.province))].sort((a, b) => a.localeCompare(b))]);
   fillSelect(elements.productTypeFilter, ["All", ...(data.filters.productTypes || [])]);
   fillSelect(elements.classFilter, ["All", ...data.filters.classes]);
   fillSelect(elements.vendorFilter, ["All", ...data.filters.vendors]);
@@ -266,6 +275,10 @@ function bindEvents() {
     state.filters.department = event.target.value;
     render();
   });
+  elements.regionFilter.addEventListener("change", (event) => {
+    state.filters.region = event.target.value;
+    render();
+  });
   elements.productTypeFilter.addEventListener("change", (event) => {
     state.filters.productType = event.target.value;
     render();
@@ -290,6 +303,7 @@ function bindEvents() {
       season: "All",
       size: "All",
       department: "All",
+      region: "All",
       productType: "All",
       className: "All",
       vendor: "All",
@@ -301,6 +315,7 @@ function bindEvents() {
     elements.seasonFilter.value = "All";
     elements.sizeFilter.value = "All";
     elements.departmentFilter.value = "All";
+    elements.regionFilter.value = "All";
     elements.productTypeFilter.value = "All";
     elements.classFilter.value = "All";
     elements.vendorFilter.value = "All";
@@ -369,6 +384,7 @@ function matchesFilters(row) {
   if (state.filters.season !== "All" && row.season !== state.filters.season) return false;
   if (state.filters.size !== "All" && row.size !== state.filters.size) return false;
   if (state.filters.department !== "All" && row.department !== state.filters.department) return false;
+  if (state.filters.region !== "All" && row.province !== state.filters.region) return false;
   if (state.filters.productType !== "All" && row.productType !== state.filters.productType) return false;
   if (state.filters.className !== "All" && row.class !== state.filters.className) return false;
   if (state.filters.vendor !== "All" && row.vendor !== state.filters.vendor) return false;
@@ -412,6 +428,8 @@ function render() {
   renderTrend(rows);
   renderFourWeekTrend(rows);
   renderBars(elements.statusBars, topGroups(rows, "status", 8), topGroups(previousRows, "status", 100), totals.netSales);
+  renderBars(elements.releaseMixBars, topGroups(rows, "releaseMix", 3), topGroups(previousRows, "releaseMix", 3), totals.netSales);
+  renderBars(elements.releaseBars, topGroups(rows, "release", 8), topGroups(previousRows, "release", 100), totals.netSales);
   renderBars(elements.vendorBars, topGroups(rows, "vendor", 8), topGroups(previousRows, "vendor", 100), totals.netSales);
   renderBars(elements.departmentBars, topGroups(rows, "department", 8), topGroups(previousRows, "department", 100), totals.netSales);
   renderBars(elements.provinceBars, topGroups(rows, "province", 8), topGroups(previousRows, "province", 100), totals.netSales);
@@ -472,6 +490,13 @@ function groupMetric(rows, key) {
   }, {});
 }
 
+function releaseMixCategory(value) {
+  const release = String(value || "").trim();
+  if (release === "Regular") return "Regular";
+  if (release === "Release" || release === "New Release" || release === "Old Release" || release.startsWith("Release (")) return "Release";
+  return "(blank)";
+}
+
 function topGroups(rows, key, limit) {
   return Object.values(groupMetric(rows, key))
     .sort((a, b) => b.netSales - a.netSales)
@@ -494,7 +519,7 @@ function topProducts(rows, limit, previousRows = [], totalSales = 0) {
       vendor: row.vendor,
       productType: row.productType,
       statuses: new Set(),
-      release: row.release,
+      releases: new Set(),
       season: row.season,
       department: row.department,
       class: row.class,
@@ -515,6 +540,7 @@ function topProducts(rows, limit, previousRows = [], totalSales = 0) {
     acc[row.title].units += Number(row.units) || 0;
     acc[row.title].sizes.add(row.size);
     acc[row.title].statuses.add(row.status);
+    acc[row.title].releases.add(row.release);
     if (!acc[row.title].inventoryDate || row.date > acc[row.title].inventoryDate) {
       acc[row.title].inventoryDate = row.date;
       acc[row.title].inventory = Number(row.inventory) || 0;
@@ -648,7 +674,7 @@ function renderProducts(products, totalSales = 0) {
           </td>
           <td>${escapeHtml(product.vendor)}</td>
           <td>${escapeHtml(statusLabel(product.statuses))}</td>
-          <td>${escapeHtml(product.release || "")}</td>
+          <td>${escapeHtml(releaseLabel(product.releases))}</td>
           <td>${escapeHtml(product.season || "")}</td>
           <td>${escapeHtml(sizeLabel(product.sizes))}</td>
           <td class="num">${money.format(product.netSales)}</td>
@@ -708,7 +734,9 @@ function renderPanelVisibility() {
   });
   elements.panelRows.forEach((row) => {
     const panels = [...row.querySelectorAll("[data-panel]")];
-    row.hidden = panels.length > 0 && panels.every((panel) => panel.hidden);
+    const visibleCount = panels.filter((panel) => !panel.hidden).length;
+    row.hidden = panels.length > 0 && visibleCount === 0;
+    row.classList.toggle("single-visible", visibleCount === 1);
   });
 }
 
@@ -1170,6 +1198,13 @@ function statusLabel(statuses) {
   const hasFullPrice = values.some((value) => /full\s*price/i.test(value));
   if (hasMarkdown && hasFullPrice) return "Markdown + Full Price";
   return values.sort().join(" + ") || "";
+}
+
+function releaseLabel(releases) {
+  return [...releases]
+    .filter((value) => value && value !== "(blank)")
+    .sort()
+    .join(" + ");
 }
 
 function shortLabel(value) {
